@@ -12,13 +12,13 @@
 <p>1. Download repositry from github</p>
 
 ```
-git clone https://github.com/YasinMahmoudi/to-do-app.git
+git clone https://github.com/YasinMahmoudi/card-dark-mode.git
 ```
 
 <p>2. Change project directory</p>
 
 ```
-cd to-do-app
+cd card-dark-mode
 ```
 
 <p>3. Installing node dependencies</p>
