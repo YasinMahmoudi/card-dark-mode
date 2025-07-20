@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title> Master Card </title>
+
+    <!-- FONTS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- GENERAL CSS -->
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+
+    <!-- JS FILES -->
+    <script
+      defer
+      src="script.js"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="toggle">
+        <button class="toggle__btn">
+          <i class="far fa-sun toggle__icon"></i>
+          <i class="far fa-moon toggle__icon toggle__icon--hidden"></i>
+        </button>
+      </div>
+
+      <div class="card">
+        <img
+          src="./images/map.png"
+          alt="map"
+          class="card__map"
+        />
+        <p class="card__title"> Mastercard </p>
+        <img
+          class="card__icon"
+          src="images/chip.png"
+          alt="chip"
+        />
+        <div class="card__number">
+          <span> 3498 5678 2341 9842 </span>
+        </div>
+        <div class="card__valide-date">
+          <p class="card__valide-date__label"> Valid through </p>
+          <strong class="card__valid-date__value"> 08 / 26 </strong>
+        </div>
+        <p class="card__owner"> Yasin Mahmoudi </p>
+
+        <div class="card__circle-container">
+          <div class="card__circle card__circle--red"></div>
+          <div class="card__circle card__circle--orange"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
